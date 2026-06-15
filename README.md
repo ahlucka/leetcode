@@ -10,6 +10,6 @@ hashmap, kdyz nenajde v hashmape x, ktery = target - nums[i] tak prida (nums[i],
 
 0ms, beats 100.00%
 
-[reseni]([https://leetcode.com/problems/reverse-string/solutions/8335650/reverse-string-by-adamh943-s6pn](https://leetcode.com/problems/reverse-string/solutions/8336314/reverse-string-by-adamh943-i57o))
+[reseni](https://leetcode.com/problems/reverse-string/solutions/8336314/reverse-string-by-adamh943-i57o)
 
 spravil jsem to a ted to pouziva dva pointery
