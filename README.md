@@ -1,4 +1,4 @@
-# 5weeks
+# 1.1. two sum
 
 2ms, beats 99.39%
 
