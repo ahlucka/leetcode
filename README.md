@@ -10,6 +10,6 @@ hashmap, kdyz nenajde v hashmape x, ktery = target - nums[i] tak prida (nums[i],
 
 0ms, beats 100.00%
 
-[reseni](https://leetcode.com/problems/reverse-string/solutions/8335650/reverse-string-by-adamh943-s6pn)
+[reseni]([https://leetcode.com/problems/reverse-string/solutions/8335650/reverse-string-by-adamh943-s6pn](https://leetcode.com/problems/reverse-string/solutions/8336314/reverse-string-by-adamh943-i57o))
 
-udelal jsem novou array ktera je kopie originalu, protoze kdybych jenom obratil ten original tak by to bylo zrcadlove, ne pozpatku
+spravil jsem to a ted to pouziva dva pointery
