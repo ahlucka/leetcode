@@ -13,3 +13,10 @@ hashmap, kdyz nenajde v hashmape x, ktery = target - nums[i] tak prida (nums[i],
 [reseni](https://leetcode.com/problems/reverse-string/solutions/8336314/reverse-string-by-adamh943-i57o)
 
 spravil jsem to a ted to pouziva dva pointery
+## 2.1 stocks
+
+1 ms, beats 99.93%
+
+[reseni](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/submissions/2034882480)
+
+jsou dve promeny, jedna trackuje nejmensi cenu a jedna trackuje profit, protoze chci co nejmensi cenu ale co nejvetsi profit
