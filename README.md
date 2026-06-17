@@ -29,3 +29,9 @@ jsou dve promeny, jedna trackuje nejmensi cenu a jedna trackuje profit, protoze 
 [reseni](https://leetcode.com/problems/valid-parentheses/solutions/8340343/valid-parentheses-by-adamh943-gmh4)
 
 pouzil jsem stack protoze potrebuji abych porovnal posledni character s nejnovejsim
+
+## 3.2 reverse linked list
+
+[reseni]()
+
+vysvetleni
