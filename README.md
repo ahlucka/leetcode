@@ -14,13 +14,6 @@ hashmap, kdyz nenajde v hashmape x, ktery = target - nums[i] tak prida (nums[i],
 
 spravil jsem to a ted to pouziva dva pointery
 
-## 3.1 valid parentheses
-
-4 ms, beats 38.84%
-
-[reseni](https://leetcode.com/problems/valid-parentheses/solutions/8340343/valid-parentheses-by-adamh943-gmh4)
-
-pouzil jsem stack protoze potrebuji abych porovnal posledni character s nejnovejsim
 ## 2.1 stocks
 
 1 ms, beats 99.93%
@@ -28,3 +21,11 @@ pouzil jsem stack protoze potrebuji abych porovnal posledni character s nejnovej
 [reseni](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/submissions/2034882480)
 
 jsou dve promeny, jedna trackuje nejmensi cenu a jedna trackuje profit, protoze chci co nejmensi cenu ale co nejvetsi profit
+
+## 3.1 valid parentheses
+
+4 ms, beats 38.84%
+
+[reseni](https://leetcode.com/problems/valid-parentheses/solutions/8340343/valid-parentheses-by-adamh943-gmh4)
+
+pouzil jsem stack protoze potrebuji abych porovnal posledni character s nejnovejsim
