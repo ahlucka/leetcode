@@ -32,6 +32,8 @@ pouzil jsem stack protoze potrebuji abych porovnal posledni character s nejnovej
 
 ## 3.2 reverse linked list
 
-[reseni]()
+0 ms, beats 100.00%
 
-vysvetleni
+[reseni](https://leetcode.com/problems/reverse-linked-list/solutions/8340446/reverse-linked-list-by-adamh943-o765)
+
+udelal jsem ze si to 4 promeny predavaji dokud nebude current null, protoze to znamena konec listu
