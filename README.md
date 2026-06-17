@@ -14,7 +14,7 @@ hashmap, kdyz nenajde v hashmape x, ktery = target - nums[i] tak prida (nums[i],
 
 spravil jsem to a ted to pouziva dva pointery
 
-##3.1 valid parentheses
+## 3.1 valid parentheses
 
 4 ms, beats 38.84%
 
