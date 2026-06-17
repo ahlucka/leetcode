@@ -29,3 +29,11 @@ jsou dve promeny, jedna trackuje nejmensi cenu a jedna trackuje profit, protoze 
 [reseni](https://leetcode.com/problems/valid-parentheses/solutions/8340343/valid-parentheses-by-adamh943-gmh4)
 
 pouzil jsem stack protoze potrebuji abych porovnal posledni character s nejnovejsim
+
+## 3.2 reverse linked list
+
+0 ms, beats 100.00%
+
+[reseni](https://leetcode.com/problems/reverse-linked-list/solutions/8340446/reverse-linked-list-by-adamh943-o765)
+
+udelal jsem ze si to 4 promeny predavaji dokud nebude current null, protoze to znamena konec listu
