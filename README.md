@@ -37,3 +37,11 @@ pouzil jsem stack protoze potrebuji abych porovnal posledni character s nejnovej
 [reseni](https://leetcode.com/problems/reverse-linked-list/solutions/8340446/reverse-linked-list-by-adamh943-o765)
 
 udelal jsem ze si to 4 promeny predavaji dokud nebude current null, protoze to znamena konec listu
+
+## 4.1 binary search
+
+0 ms, beats 100.00%
+
+[reseni](https://leetcode.com/problems/binary-search/solutions/8341903/binary-search-by-adamh943-r30f)
+
+klasickej binary search tak jsem dal middle ktery se budke posune nahoru nebo dolu podle toho jestli je vetsi nebo mensi nez target
