@@ -46,7 +46,7 @@ udelal jsem ze si to 4 promeny predavaji dokud nebude current null, protoze to z
 
 klasickej binary search tak jsem dal middle ktery se budke posune nahoru nebo dolu podle toho jestli je vetsi nebo mensi nez target
 
-## subtree of another tree
+## 4.2 subtree of another tree
 
 3 ms, beats 67.79%
 
