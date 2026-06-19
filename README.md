@@ -60,4 +60,4 @@ musel jsem si toho vyhledat hodne ale pouzil jsem depth-first search a prohledal
 
 [reseni](https://leetcode.com/problems/last-stone-weight/submissions/2038697797)
 
-udelal jsem loop ktery to sortne od nejvetsi po nejmensi a pak budto zmeni dva nejvetsi elementy na 0, nebo x element na 0 a y element na y - x
+udelal jsem loop ktery to sorti od nejvetsi po nejmensi a pak budto zmeni dva nejvetsi elementy na 0, nebo x element na 0 a y element na y - x
