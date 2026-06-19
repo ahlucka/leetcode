@@ -10,6 +10,7 @@
 
 hashmap, kdyz nenajde v hashmape x, ktery = target - nums[i] tak prida (nums[i], i) do hashmapy a pokracuje. je to rychlejsi nez dva for loopy protoze to projde arrayji maximalne jednou
 
+### 1.2 reverse string
 
 0 ms, beats 100.00%
 
