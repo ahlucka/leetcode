@@ -53,3 +53,11 @@ klasickej binary search tak jsem dal middle ktery se budke posune nahoru nebo do
 [reseni](https://leetcode.com/problems/subtree-of-another-tree/solutions/8344650/subtree-of-another-tree-by-adamh943-7sdx)
 
 musel jsem si toho vyhledat hodne ale pouzil jsem depth-first search a prohledal jsem vsechny mozny vetve
+
+## 5.1 last stone weight
+
+2 ms, beats 35.38%
+
+[reseni](https://leetcode.com/problems/last-stone-weight/submissions/2038697797)
+
+udelal jsem loop ktery to sorti od nejvetsi po nejmensi a pak budto zmeni dva nejvetsi elementy na 0, nebo x element na 0 a y element na y - x
