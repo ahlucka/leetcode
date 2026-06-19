@@ -45,3 +45,11 @@ udelal jsem ze si to 4 promeny predavaji dokud nebude current null, protoze to z
 [reseni](https://leetcode.com/problems/binary-search/solutions/8341903/binary-search-by-adamh943-r30f)
 
 klasickej binary search tak jsem dal middle ktery se budke posune nahoru nebo dolu podle toho jestli je vetsi nebo mensi nez target
+
+## subtree of another tree
+
+3 ms, beats 67.79%
+
+[reseni](https://leetcode.com/problems/subtree-of-another-tree/solutions/8344650/subtree-of-another-tree-by-adamh943-7sdx)
+
+musel jsem si toho vyhledat hodne ale pouzil jsem depth-first search a prohledal jsem vsechny mozny vetve
