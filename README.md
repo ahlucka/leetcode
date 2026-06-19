@@ -1,11 +1,15 @@
 # leetcode
-## 1.1. two sum
+
+## week 1
+
+### 1.1. two sum
 
 2 ms, beats 99.39%
 
 [reseni](https://leetcode.com/problems/two-sum/solutions/8334956/two-sum-by-adamh943-aiig)
 
 hashmap, kdyz nenajde v hashmape x, ktery = target - nums[i] tak prida (nums[i], i) do hashmapy a pokracuje. je to rychlejsi nez dva for loopy protoze to projde arrayji maximalne jednou
+
 ## 1.2 reverse string
 
 0 ms, beats 100.00%
@@ -14,7 +18,7 @@ hashmap, kdyz nenajde v hashmape x, ktery = target - nums[i] tak prida (nums[i],
 
 spravil jsem to a ted to pouziva dva pointery
 
-## 2.1 stocks
+### 2.1 stocks
 
 1 ms, beats 99.93%
 
@@ -22,7 +26,7 @@ spravil jsem to a ted to pouziva dva pointery
 
 jsou dve promeny, jedna trackuje nejmensi cenu a jedna trackuje profit, protoze chci co nejmensi cenu ale co nejvetsi profit
 
-## 3.1 valid parentheses
+### 3.1 valid parentheses
 
 4 ms, beats 38.84%
 
@@ -30,7 +34,7 @@ jsou dve promeny, jedna trackuje nejmensi cenu a jedna trackuje profit, protoze 
 
 pouzil jsem stack protoze potrebuji abych porovnal posledni character s nejnovejsim
 
-## 3.2 reverse linked list
+### 3.2 reverse linked list
 
 0 ms, beats 100.00%
 
@@ -38,7 +42,7 @@ pouzil jsem stack protoze potrebuji abych porovnal posledni character s nejnovej
 
 udelal jsem ze si to 4 promeny predavaji dokud nebude current null, protoze to znamena konec listu
 
-## 4.1 binary search
+### 4.1 binary search
 
 0 ms, beats 100.00%
 
@@ -46,7 +50,7 @@ udelal jsem ze si to 4 promeny predavaji dokud nebude current null, protoze to z
 
 klasickej binary search tak jsem dal middle ktery se budke posune nahoru nebo dolu podle toho jestli je vetsi nebo mensi nez target
 
-## 4.2 subtree of another tree
+### 4.2 subtree of another tree
 
 3 ms, beats 67.79%
 
@@ -54,10 +58,20 @@ klasickej binary search tak jsem dal middle ktery se budke posune nahoru nebo do
 
 musel jsem si toho vyhledat hodne ale pouzil jsem depth-first search a prohledal jsem vsechny mozny vetve
 
-## 5.1 last stone weight
+### 5.1 last stone weight
 
 2 ms, beats 35.38%
 
 [reseni](https://leetcode.com/problems/last-stone-weight/submissions/2038697797)
 
 udelal jsem loop ktery to sorti od nejvetsi po nejmensi a pak budto zmeni dva nejvetsi elementy na 0, nebo x element na 0 a y element na y - x
+
+### 5.2 max depth of binary tree
+
+0 ms, beats 100.00%
+
+[reseni](https://leetcode.com/problems/maximum-depth-of-binary-tree/submissions/2038797249)
+
+zase recursive loop ktery udela max z leve a z prave a pak prida 1 aby se zapocital prvni node
+
+## week 2
