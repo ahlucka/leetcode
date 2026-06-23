@@ -75,3 +75,11 @@ udelal jsem loop ktery to sorti od nejvetsi po nejmensi a pak budto zmeni dva ne
 zase recursive loop ktery udela max z leve a z prave a pak prida 1 aby se zapocital prvni node
 
 ## week 2
+
+### 1.1 intersection of two arrays
+
+[reseni](https://leetcode.com/problems/intersection-of-two-arrays/submissions/2043536289}
+
+5 ms, beats 28.17%
+
+pouzil hashset (protoze se to postara o duplikaty) a pak pridaval ty intersekce do arraylistu ktery jsem nakonec prevedl na array protoze to funkce vyzaduje. musim se priznat ze nevim jak to udelat rychlejsi
