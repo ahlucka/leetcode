@@ -91,3 +91,11 @@ pouzil hashset (protoze se to postara o duplikaty) a pak pridaval ty intersekce 
 [reseni](https://leetcode.com/problems/unique-email-addresses/submissions/2043569345)
 
 vytvoril hashset (protoze nebudou duplikaty), potom rozdelil email na local name a domain name, protoze kdyz budu mazat tecky tak at jsou smazany jenom v local name, potom to pravidlo s +, a pak to spojil dohromady a pridal do hashsetu
+
+### 2.1 first unique char
+
+15 ms, beats 51.48%
+
+[reseni](https://leetcode.com/problems/first-unique-character-in-a-string/submissions/2043686300)
+
+kdyz je charakter na indexu ktery je stejny jako prvni a posledni index toho charakteru tak to znamena ze v tom stringu musi byt jedinej
