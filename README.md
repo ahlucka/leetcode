@@ -78,8 +78,16 @@ zase recursive loop ktery udela max z leve a z prave a pak prida 1 aby se zapoci
 
 ### 1.1 intersection of two arrays
 
-[reseni](https://leetcode.com/problems/intersection-of-two-arrays/submissions/2043536289}
-
 5 ms, beats 28.17%
 
+[reseni](https://leetcode.com/problems/intersection-of-two-arrays/submissions/2043536289}
+
 pouzil hashset (protoze se to postara o duplikaty) a pak pridaval ty intersekce do arraylistu ktery jsem nakonec prevedl na array protoze to funkce vyzaduje. musim se priznat ze nevim jak to udelat rychlejsi
+
+### 1.2 unique email addresses
+
+9 ms, beats 84.35%
+
+[reseni](https://leetcode.com/problems/unique-email-addresses/submissions/2043569345)
+
+vytvoril hashset (protoze nebudou duplikaty), potom rozdelil email na local name a domain name, protoze kdyz budu mazat tecky tak at jsou smazany jenom v local name, potom to pravidlo s +, a pak to spojil dohromady a pridal do hashsetu
