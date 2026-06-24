@@ -99,3 +99,11 @@ vytvoril hashset (protoze nebudou duplikaty), potom rozdelil email na local name
 [reseni](https://leetcode.com/problems/first-unique-character-in-a-string/submissions/2043686300)
 
 kdyz je charakter na indexu ktery je stejny jako prvni a posledni index toho charakteru tak to znamena ze v tom stringu musi byt jedinej
+
+### 2.2 remove duplicates from sorted list
+
+0 ms, beats 100.00%
+
+[reseni](https://leetcode.com/problems/remove-duplicates-from-sorted-list/submissions/2044560619)
+
+zjistil jsem jestli jsou current value a next value stejny, kdyz jo, tak se .next zmeni na .next.next, az nakonec bude .next/.next.next nulll, a pak to skonci
