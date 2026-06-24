@@ -107,3 +107,11 @@ kdyz je charakter na indexu ktery je stejny jako prvni a posledni index toho cha
 [reseni](https://leetcode.com/problems/remove-duplicates-from-sorted-list/submissions/2044560619)
 
 zjistil jsem jestli jsou current value a next value stejny, kdyz jo, tak se .next zmeni na .next.next, az nakonec bude .next/.next.next nulll, a pak to skonci
+
+### 3.1 move zeroes
+
+3 ms, beats 18.95%
+
+[reseni](https://leetcode.com/problems/move-zeroes/submissions/2044841435)
+
+mam index na kterym je prvni nula, na ktery se posuna kazda ne-nulta cislice
