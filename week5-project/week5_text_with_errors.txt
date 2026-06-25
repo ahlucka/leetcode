@@ -1,0 +1,33 @@
+This file is intentionally messy.
+
+Normal line: The student project was reviewed by the team.
+
+Numbers and symbols: 12345 !!! ### $$$ %%%
+
+Mixed casing: CODE Code code CoDe cOdE.
+
+Punctuation test: hello, hello! hello? "hello"; hello...
+
+Unicode-ish but still readable: cafe naive facade jalapeno resume
+
+Very long token:
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+Empty lines below:
+
+
+
+CSV-looking line that should still be treated as text:
+student_id,first_name,last_name,score
+
+Binary-looking text:
+\x00\x01\x02\x03
+
+Repeated stop words:
+the the the and and and to to to of of of
+
+Line with tabs:
+word1	word2	word3
+
+Line with only spaces:
+
