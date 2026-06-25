@@ -115,3 +115,11 @@ zjistil jsem jestli jsou current value a next value stejny, kdyz jo, tak se .nex
 [reseni](https://leetcode.com/problems/move-zeroes/submissions/2044841435)
 
 mam index na kterym je prvni nula, na ktery se posuna kazda ne-nulta cislice
+
+### 4.1 merge two binary trees
+
+0ms, beats 100.00%
+
+[reseni](https://leetcode.com/problems/merge-two-binary-trees/submissions/2045703483)
+
+zase rekursivni struktura kde se budto sectou, nebo kdyz je jeden node null tak se tam da ten druhej node (ktery muze taky byt null ale nemusi)
