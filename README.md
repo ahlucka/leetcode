@@ -132,7 +132,7 @@ chtelo to O(logn) coz znamena binary search, jedina zmena je ze taky musim check
 
 zase rekursivni struktura kde se budto sectou, nebo kdyz je jeden node null tak se tam da ten druhej node (ktery muze taky byt null ale nemusi)
 
-###4.2 path sum
+### 4.2 path sum
 
 0ms, beats 100.00%
 
