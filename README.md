@@ -115,3 +115,27 @@ zjistil jsem jestli jsou current value a next value stejny, kdyz jo, tak se .nex
 [reseni](https://leetcode.com/problems/move-zeroes/submissions/2044841435)
 
 mam index na kterym je prvni nula, na ktery se posuna kazda ne-nulta cislice
+
+### 3.2 search insert position
+
+0 ms, beats 100.00%
+
+[reseni](https://leetcode.com/problems/search-insert-position/submissions/2044840312)
+
+chtelo to O(logn) coz znamena binary search, jedina zmena je ze taky musim checknout jestli target neexistuje v arrayi coz znamena ze jestli target sedi mezi nums[mid - 1] a nums[mid + 1] tak je output mid
+
+### 4.1 merge two binary trees
+
+0ms, beats 100.00%
+
+[reseni](https://leetcode.com/problems/merge-two-binary-trees/submissions/2045703483)
+
+zase rekursivni struktura kde se budto sectou, nebo kdyz je jeden node null tak se tam da ten druhej node (ktery muze taky byt null ale nemusi)
+
+###4.2 path sum
+
+0ms, beats 100.00%
+
+[reseni](https://leetcode.com/problems/path-sum/submissions/2045791477)
+
+jako vzdycky s linkedlistama, tak je to rekursivni, ale sum se nescita, spis se odecita kazdy node od targetu
