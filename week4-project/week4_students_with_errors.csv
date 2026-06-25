@@ -1,0 +1,16 @@
+student_id,first_name,last_name,grade_level,class_period,quiz1,quiz2,midterm,project,final_exam,attendance_pct
+S3001,Good,Row,11,2,88,90,87,94,91,96
+S3002,Missing,Final,10,1,77,80,79,82,,93
+S3003,Text,Score,9,3,72,eighty,74,76,78,88
+S3004,Huge,Number,12,4,95,94,999999999999999999999,96,97,99
+S3005,Negative,Score,11,2,81,-12,84,86,83,92
+S3006,Too,High,10,1,101,98,96,95,94,97
+S3007,,MissingFirstName,9,5,70,72,73,74,75,89
+S3008,Bad,Grade,eleven,2,80,81,82,83,84,91
+S3009,Bad,Attendance,12,4,88,89,90,91,92,140
+S3010,Wrong,Columns,10,3,78,79,80
+S3011,Extra,Column,11,1,89,90,91,92,93,94,unexpected
+,Missing,StudentId,10,2,80,80,80,80,80,90
+S3013,Blank,LineAfterThis,10,2,80,80,80,80,80,90
+
+S3014,Spaces,Everywhere, 11 , 2 , 88 , 89 , 90 , 91 , 92 , 93 
