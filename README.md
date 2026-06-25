@@ -116,6 +116,14 @@ zjistil jsem jestli jsou current value a next value stejny, kdyz jo, tak se .nex
 
 mam index na kterym je prvni nula, na ktery se posuna kazda ne-nulta cislice
 
+### 3.2 search insert position
+
+0 ms, beats 100.00%
+
+[reseni](https://leetcode.com/problems/search-insert-position/submissions/2044840312)
+
+chtelo to O(logn) coz znamena binary search, jedina zmena je ze taky musim checknout jestli target neexistuje v arrayi coz znamena ze jestli target sedi mezi nums[mid - 1] a nums[mid + 1] tak je output mid
+
 ### 4.1 merge two binary trees
 
 0ms, beats 100.00%
