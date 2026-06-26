@@ -1,6 +1,6 @@
 # leetcode
 
-## week 1
+## week 1 - first one
 
 ### 1.1. two sum
 
