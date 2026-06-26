@@ -139,3 +139,11 @@ zase rekursivni struktura kde se budto sectou, nebo kdyz je jeden node null tak 
 [reseni](https://leetcode.com/problems/path-sum/submissions/2045791477)
 
 jako vzdycky s linkedlistama, tak je to rekursivni, ale sum se nescita, spis se odecita kazdy node od targetu
+
+### 5.1 convert sorted array to BST
+
+0ms, beats 100.00%
+
+[reseni](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/submissions/2046666192)
+
+pouzil jsem mid podobne jako v binary search na to, aby byly obe strany vyrovnany a pak jsem to sestavil
