@@ -147,3 +147,11 @@ jako vzdycky s linkedlistama, tak je to rekursivni, ale sum se nescita, spis se 
 [reseni](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/submissions/2046666192)
 
 pouzil jsem mid podobne jako v binary search na to, aby byly obe strany vyrovnany a pak jsem to sestavil
+
+### 5.2 min depth of binary tree
+
+4 ms, beats 69.21%
+
+[reseni](https://leetcode.com/problems/minimum-depth-of-binary-tree/submissions/2046669536)
+
+to co mi chybelo tak je to, ze musim checknout kolik ma node deti, kdyz je napriklad .left null, tak se zkontroluje jenom leva strana atd
