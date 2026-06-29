@@ -165,3 +165,11 @@ to co mi chybelo tak je to, ze musim checknout kolik ma node deti, kdyz je napri
 [reseni](https://leetcode.com/problems/fizz-buzz/submissions/2050009735)
 
 normalni for loop ktery nejdriv checkne jestli je to delitelny 3, jestli jo tak to zkusi 5 atd
+
+### 1.2 climb stairs
+
+0 ms, beats 100.00%
+
+[reseni](https://leetcode.com/problems/climbing-stairs/submissions/2050255987)
+
+po te co jsem si uvedomil ze to je fibonacci, tak jsem proste udelal fibonacci od 1 az do n
