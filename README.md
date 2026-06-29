@@ -80,7 +80,7 @@ zase recursive loop ktery udela max z leve a z prave a pak prida 1 aby se zapoci
 
 5 ms, beats 28.17%
 
-[reseni](https://leetcode.com/problems/intersection-of-two-arrays/submissions/2043536289}
+[reseni](https://leetcode.com/problems/intersection-of-two-arrays/submissions/2043536289)
 
 pouzil hashset (protoze se to postara o duplikaty) a pak pridaval ty intersekce do arraylistu ktery jsem nakonec prevedl na array protoze to funkce vyzaduje. musim se priznat ze nevim jak to udelat rychlejsi
 
@@ -155,3 +155,13 @@ pouzil jsem mid podobne jako v binary search na to, aby byly obe strany vyrovnan
 [reseni](https://leetcode.com/problems/minimum-depth-of-binary-tree/submissions/2046669536)
 
 to co mi chybelo tak je to, ze musim checknout kolik ma node deti, kdyz je napriklad .left null, tak se zkontroluje jenom leva strana atd
+
+## week 3
+
+### 1.1 fizz buzz
+
+1 ms, beats 99.87%
+
+[reseni](https://leetcode.com/problems/fizz-buzz/submissions/2050009735)
+
+normalni for loop ktery nejdriv checkne jestli je to delitelny 3, jestli jo tak to zkusi 5 atd
