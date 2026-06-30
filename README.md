@@ -173,3 +173,11 @@ normalni for loop ktery nejdriv checkne jestli je to delitelny 3, jestli jo tak 
 [reseni](https://leetcode.com/problems/climbing-stairs/submissions/2050255987)
 
 po te co jsem si uvedomil ze to je fibonacci, tak jsem proste udelal fibonacci od 1 az do n
+
+### 2.1 roman to integer
+
+2 ms, beats 100.00%
+
+[reseni](https://leetcode.com/problems/roman-to-integer/submissions/2051074903)
+
+nejdriv jsem udelal novou array ktera mela ty znaky ze stringu prevedeny na cisla, a pak jsem to prosel jeste jednou a pricetl budto cislo, nebo (cislo + 1) - cislo, pokud bylo cislo mensi nez cislo + 1. tenhl pristup mi prisel lehci a hezci nez abych to prosel a mel tisic if statementu podle toho jestli je I pred V atd
