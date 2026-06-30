@@ -20,7 +20,7 @@ public class Main {
         Scanner nums = new Scanner(System.in);
         ArrayList<Double> values = new ArrayList<>();
         
-        while (values.size() == 0 || values.get(values.size() - 1) != -1) {
+        while (values.isEmpty()|| values.get(values.size() - 1) != -1) {
             System.out.print("enter numbers here (-1 if you want to stop): ");
             while (!nums.hasNextDouble()) {
                 String notNumeric = nums.next();
@@ -28,6 +28,7 @@ public class Main {
             }
             values.add(nums.nextDouble());
         }
+        nums.close();
         return values;
     }
 
