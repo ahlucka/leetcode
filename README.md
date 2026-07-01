@@ -181,3 +181,11 @@ po te co jsem si uvedomil ze to je fibonacci, tak jsem proste udelal fibonacci o
 [reseni](https://leetcode.com/problems/roman-to-integer/submissions/2051074903)
 
 nejdriv jsem udelal novou array ktera mela ty znaky ze stringu prevedeny na cisla, a pak jsem to prosel jeste jednou a pricetl budto cislo, nebo (cislo + 1) - cislo, pokud bylo cislo mensi nez cislo + 1. tenhl pristup mi prisel lehci a hezci nez abych to prosel a mel tisic if statementu podle toho jestli je I pred V atd
+
+### 3.1 is subsequence
+
+2 ms, beats 71.95%
+
+[reseni](https://leetcode.com/problems/is-subsequence/submissions/2052518414)
+
+myslim ze to je two pointer approach ale nejsem si 100% jisty
