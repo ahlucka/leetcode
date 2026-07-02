@@ -189,3 +189,19 @@ nejdriv jsem udelal novou array ktera mela ty znaky ze stringu prevedeny na cisl
 [reseni](https://leetcode.com/problems/is-subsequence/submissions/2052518414)
 
 myslim ze to je two pointer approach ale nejsem si 100% jisty
+
+## 4.1 intersection of two arrays REVISITED
+
+3 ms, beats 48.06%
+
+[reseni](https://leetcode.com/problems/intersection-of-two-arrays/submissions/2053484528)
+
+misto arraylistu jsem pouzil dva hashsety a zjistil jsem, ze existuje .retainAll funkce ktera udela presne to co jsem potreboval
+
+## 4.2 unique email addresses REVISITED
+
+28 ms, beats 7.52%
+
+[reseni](https://leetcode.com/problems/unique-email-addresses/submissions/2053485775)
+
+pouzil jsem regex jak jsi chtel, replaceAll funguje presne jak jsem chtel, ale je to HODNE pomaly, mnohem pomalejsi nez kdyz jsem to vyresil predtim
