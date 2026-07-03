@@ -205,3 +205,11 @@ misto arraylistu jsem pouzil dva hashsety a zjistil jsem, ze existuje .retainAll
 [reseni](https://leetcode.com/problems/unique-email-addresses/submissions/2053485775)
 
 pouzil jsem regex jak jsi chtel, replaceAll funguje presne jak jsem chtel, ale je to HODNE pomaly, mnohem pomalejsi nez kdyz jsem to vyresil predtim
+
+## 5.1 merge two binary trees REVISITED
+
+0 ms, beats 100.00%
+
+[reseni](https://leetcode.com/problems/merge-two-binary-trees/submissions/2054842855)
+
+nevim co presne zadani znamena ale upravil jsem to, takze je to ted in place a min pametove narocny
