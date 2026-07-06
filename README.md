@@ -190,7 +190,7 @@ nejdriv jsem udelal novou array ktera mela ty znaky ze stringu prevedeny na cisl
 
 myslim ze to je two pointer approach ale nejsem si 100% jisty
 
-## 4.1 intersection of two arrays REVISITED
+### 4.1 intersection of two arrays REVISITED
 
 3 ms, beats 48.06%
 
@@ -198,7 +198,7 @@ myslim ze to je two pointer approach ale nejsem si 100% jisty
 
 misto arraylistu jsem pouzil dva hashsety a zjistil jsem, ze existuje .retainAll funkce ktera udela presne to co jsem potreboval
 
-## 4.2 unique email addresses REVISITED
+### 4.2 unique email addresses REVISITED
 
 28 ms, beats 7.52%
 
@@ -206,10 +206,20 @@ misto arraylistu jsem pouzil dva hashsety a zjistil jsem, ze existuje .retainAll
 
 pouzil jsem regex jak jsi chtel, replaceAll funguje presne jak jsem chtel, ale je to HODNE pomaly, mnohem pomalejsi nez kdyz jsem to vyresil predtim
 
-## 5.1 merge two binary trees REVISITED
+### 5.1 merge two binary trees REVISITED
 
 0 ms, beats 100.00%
 
 [reseni](https://leetcode.com/problems/merge-two-binary-trees/submissions/2054842855)
 
 nevim co presne zadani znamena ale upravil jsem to, takze je to ted in place a min pametove narocny
+
+## week 4
+
+### 1.1 longest consecutive sequence
+
+32 ms, beats 37.27%
+
+[reseni](https://leetcode.com/problems/longest-consecutive-sequence/submissions/2058046943)
+
+nejdriv je potreba udelat hashset (takze se nemusim starat o to, ze budou cisla dvakrat), potom projdu hashset, a pokazde kdyz neni cislo o jedno mensi nez cislo n (to znamena, ze je zacatek sekvence) tak zacnu pocitat kolik cisel je v sekvenci. myslim si ze to je O(n), to po mne chteli
