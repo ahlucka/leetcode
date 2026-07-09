@@ -223,3 +223,18 @@ nevim co presne zadani znamena ale upravil jsem to, takze je to ted in place a m
 [reseni](https://leetcode.com/problems/longest-consecutive-sequence/submissions/2058046943)
 
 nejdriv je potreba udelat hashset (takze se nemusim starat o to, ze budou cisla dvakrat), potom projdu hashset, a pokazde kdyz neni cislo o jedno mensi nez cislo n (to znamena, ze je zacatek sekvence) tak zacnu pocitat kolik cisel je v sekvenci. myslim si ze to je O(n), to po mne chteli
+
+### 2.1 two sum ii
+
+2 ms, beats 95.80%
+
+[reseni](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/submissions/2059169710)
+
+je to v podstate takovy binary search ale misto toho aby se to posunulo na mid (O(logn)) tak se to posune o jedno, takze to je O(n), coz chteli
+
+### 3.1 validate BST
+
+0 ms, beats 100.00%
+
+[reseni](https://leetcode.com/problems/validate-binary-search-tree/submissions/2061643453)
+
