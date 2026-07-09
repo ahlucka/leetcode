@@ -238,3 +238,10 @@ je to v podstate takovy binary search ale misto toho aby se to posunulo na mid (
 
 [reseni](https://leetcode.com/problems/validate-binary-search-tree/submissions/2061643453)
 
+### 4.1 Kth largest element in array
+
+71 ms, beats 29.44%
+
+[resen](https://leetcode.com/problems/kth-largest-element-in-an-array/submissions/2061704612)
+
+musel jsem se naucit co je priorityqueue, ale uz to chapu, prida to tam a zorganizuje to podle parametru (defaultne podle velikosti) a kdyz je delka toho queue delsi nez k tak to vyhodi to nejmensi protoze to to nemuze byt. pak to returnne to nejmensi. asi to neni nejefektivnejsi kdyz to ostatni udelali rychleji ale nevim jak to udelat jinak bez sortovani zele arraye 
