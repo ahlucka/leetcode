@@ -244,4 +244,14 @@ je to v podstate takovy binary search ale misto toho aby se to posunulo na mid (
 
 [resen](https://leetcode.com/problems/kth-largest-element-in-an-array/submissions/2061704612)
 
-musel jsem se naucit co je priorityqueue, ale uz to chapu, prida to tam a zorganizuje to podle parametru (defaultne podle velikosti) a kdyz je delka toho queue delsi nez k tak to vyhodi to nejmensi protoze to to nemuze byt. pak to returnne to nejmensi. asi to neni nejefektivnejsi kdyz to ostatni udelali rychleji ale nevim jak to udelat jinak bez sortovani zele arraye 
+musel jsem se naucit co je priorityqueue, ale uz to chapu, prida to tam a zorganizuje to podle parametru (defaultne podle velikosti) a kdyz je delka toho queue delsi nez k tak to vyhodi to nejmensi protoze to to nemuze byt. pak to returnne to nejmensi. asi to neni nejefektivnejsi kdyz to ostatni udelali rychleji ale nevim jak to udelat jinak bez sortovani zele arraye
+
+## week 5
+
+### 5.1 add two numbers
+
+1 ms, beats 100.00%
+
+[reseni](https://leetcode.com/problems/add-two-numbers/submissions/2075070865)
+
+nejdriv jsem to konvertoval na string a pak zpatky na cislo ale je to jednodussi a rychlejsi udelat takhle, a udelat to ve stylu scitani rucne (jakoze si drzis jednicku a tak)
