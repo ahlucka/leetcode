@@ -255,3 +255,11 @@ musel jsem se naucit co je priorityqueue, ale uz to chapu, prida to tam a zorgan
 [reseni](https://leetcode.com/problems/add-two-numbers/submissions/2075070865)
 
 nejdriv jsem to konvertoval na string a pak zpatky na cislo ale je to jednodussi a rychlejsi udelat takhle, a udelat to ve stylu scitani rucne (jakoze si drzis jednicku a tak)
+
+### 5.2 search in rotated sorted array
+
+ 0 ms, beats 100.00%
+
+ [reseni](https://leetcode.com/problems/search-in-rotated-sorted-array/submissions/2077267126)
+
+ je to binary search s extra kroky takze to zustava O(logn)
