@@ -248,7 +248,7 @@ musel jsem se naucit co je priorityqueue, ale uz to chapu, prida to tam a zorgan
 
 ## week 5
 
-### 5.1 add two numbers
+### 1.1 add two numbers
 
 1 ms, beats 100.00%
 
@@ -256,10 +256,34 @@ musel jsem se naucit co je priorityqueue, ale uz to chapu, prida to tam a zorgan
 
 nejdriv jsem to konvertoval na string a pak zpatky na cislo ale je to jednodussi a rychlejsi udelat takhle, a udelat to ve stylu scitani rucne (jakoze si drzis jednicku a tak)
 
-### 5.2 search in rotated sorted array
+### 2.1 search in rotated sorted array
 
  0 ms, beats 100.00%
 
  [reseni](https://leetcode.com/problems/search-in-rotated-sorted-array/submissions/2077267126)
 
  je to binary search s extra kroky takze to zustava O(logn)
+
+ ### 3.1 subarray sum equals k
+
+ 21 ms, beats 97.12%
+
+[reseni](https://leetcode.com/problems/subarray-sum-equals-k/submissions/2077532634)
+
+ udelal jsem hashmapu postupnych souctu vsech cisel, a kdyz se najde suma - target v hashmapu, tak se prida count
+
+### 4.1 longest repeating char replacement
+
+7 ms, beats 88.99%
+
+[reseni](https://leetcode.com/problems/longest-repeating-character-replacement/submissions/2083935391)
+
+mam okno ktery se zmensi pokud pocet zmen je vetsi nez k, dokud to nevyjde na <= k
+
+### 5.1 number of islands
+
+4 ms, beats 45.69%
+
+[reseni](https://leetcode.com/problems/number-of-islands/submissions/2086738353)
+
+dfs, pokud bude cell == 1, tak zkontroluje vsechny strany
