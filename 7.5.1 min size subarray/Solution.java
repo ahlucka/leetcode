@@ -1,27 +1,23 @@
 class Solution {
     public static void main(String[] args) {
-
+        
     }
-
-    public int lengthOfLongestSubstring(String s) {
-        int[] lastSeen = new int[128];
-        java.util.Arrays.fill(lastSeen, -1);
-        
-        int max = 0;
+    
+    public int minSubArrayLen(int target, int[] nums) {
         int left = 0;
-        
-        for (int right = 0; right < s.length(); right++) {
-            char c = s.charAt(right);
+        int sum = 0;
+        int min = Integer.MAX_VALUE;
 
-            if (lastSeen[c] >= left) {
-                left = lastSeen[c] + 1;
+        for (int i = 0; i < nums.length; i++) {
+            sum += nums[i];
+
+            while (sum >= target) {
+                min = Math.min(min, i - left + 1);
+                sum -= nums[left];
+                left++;
             }
-
-            lastSeen[c] = right;
-            max = Math.max(max, right - left + 1);
         }
-        
-        return max;
-        
+
+        return min == Integer.MAX_VALUE ? 0 : min;
     }
 }

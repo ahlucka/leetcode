@@ -1,6 +1,6 @@
 **Approach:** stack
 
-**Why this approach is better:** 
+**Why this approach is better:** nevim jak jinak to udelat bez stacku
 
 **Time complexity:** O(n)
 
