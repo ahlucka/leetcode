@@ -1,24 +1,20 @@
-import java.util.*;
-
 class Solution {
-    public int[][] merge(int[][] intervals) {
-        if (intervals.length <= 1) {
-            return intervals;
-        }
+    public static void main(String[] args) {
+        
+    }
 
-        Arrays.sort(intervals, (a, b) -> Integer.compare(a[0], b[0]));
+    public int findKthLargest(int[] nums, int k) {
+        PriorityQueue<Integer> queue = new PriorityQueue<>();
 
-        int writeIndex = 0;
-
-        for (int i = 1; i < intervals.length; i++) {
-            if (intervals[writeIndex][1] >= intervals[i][0]) {
-                intervals[writeIndex][1] = Math.max(intervals[writeIndex][1], intervals[i][1]);
+        for (int num : nums) {
+            if (queue.size() < k) {
+                queue.add(num);
             } else {
-                writeIndex++;
-                intervals[writeIndex] = intervals[i];
+                queue.add(num);
+                queue.poll();
             }
         }
 
-        return Arrays.copyOf(intervals, writeIndex + 1);
+        return queue.peek();
     }
 }

@@ -1,9 +1,9 @@
-**Approach:** dva pointery
+**Approach:** priorityqueue
 
-**Why this approach is better:** jinak nez sort a pak for loop me ani nenapada,  ani se to neda udelat s lepsi space complexitou
+**Why this approach is better:** slo by to udelat ze sortnes arrray a pak return array[k] ale zadani rika ze nemuzes sortovat
 
-**Time complexity:** O(n * logn)
+**Time complexity:** O(k * logn)
 
-**Space complexity:** O(n)
+**Space complexity:** O(k)
 
-**LeetCode runtime percentile:** 8 ms, beats 91.40%
+**LeetCode runtime percentile:** 69 ms, beats 58.20%
